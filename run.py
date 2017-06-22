@@ -1,7 +1,9 @@
 from flask import Flask
 app = Flask(__name__)
-app.config.from_envvar('SETTINGS')
+app.config.from_pyfile('config.py')
 
 @app.route('/')
 def hello_world():
-  return "Hello, World!"
+  do_something_wrong()
+  raise
+  return 'Ohnoes'
