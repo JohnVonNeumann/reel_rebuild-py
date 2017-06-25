@@ -13,3 +13,7 @@ def signup_welcome():
 @app.route('/login')
 def login_welcome():
     return 'Welcome to the login page!'
+
+@app.route('/become_a_guide')
+def guide_welcome():
+    return 'Welcome to the guide page!'
