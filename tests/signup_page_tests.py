@@ -1,9 +1,9 @@
 # Test Suite
 import unittest
-from reel.run import app, hello_world
+from reel.run import app, signup_welcome
 
 
-class MyTestClass(unittest.TestCase):
+class SignupPageTestClass(unittest.TestCase):
 
     @classmethod
     def setupClass(cls):
@@ -20,14 +20,14 @@ class MyTestClass(unittest.TestCase):
     def tearDown(self):
         pass
     
-    def test_home_status_code(self):
-        result = self.app.get('/')
+    def test_signup_status_code(self):
+        result = self.app.get('/signup')
          
         self.assertEqual(result.status_code, 200)
         
-    def test_hello_world_return(self):
+    def test_signup_welcome_return(self):
         
-        self.assertTrue(hello_world() == "Hello, World!")
+        self.assertTrue(signup_welcome() == "Welcome to the signup page!")
 
 
 if __name__ == '__main__':
