@@ -8,6 +8,9 @@ This project was originally built in Rails whilst at Coder Academy Melbourne goi
 Create a Python3.6 virutalenv:
 > virtualenv -p python3.6 venv-36-reel
 
+Activate venv:
+> source venv-36-reel/bin/activate
+
 Git clone the repo:
 > git clone https://github.com/JohnVonNeumann/reel_rebuild-py.git
 

@@ -4,6 +4,4 @@ app.config.from_pyfile('config.py')
 
 @app.route('/')
 def hello_world():
-  do_something_wrong()
-  raise
-  return 'Ohnoes'
+  return 'Hello, World!'
