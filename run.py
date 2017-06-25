@@ -9,3 +9,7 @@ def home_welcome():
 @app.route('/signup')
 def signup_welcome():
     return 'Welcome to the signup page!'
+
+@app.route('/login')
+def login_welcome():
+    return 'Welcome to the login page!'
