@@ -17,3 +17,7 @@ def login_welcome():
 @app.route('/become_a_guide')
 def guide_welcome():
     return 'Welcome to the guide page!'
+
+@app.route('/help')
+def help_welcome():
+    return 'Welcome to the help page!'
