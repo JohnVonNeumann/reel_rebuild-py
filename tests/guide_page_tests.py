@@ -1,6 +1,7 @@
 # Test Suite
 import unittest
-from reel.run import app, guide_welcome
+from reel import app
+from reel.views import guide_welcome
 
 
 class GuidePageTestClass(unittest.TestCase):

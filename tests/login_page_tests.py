@@ -1,6 +1,7 @@
 # Test Suite
 import unittest
-from reel.run import app, login_welcome
+from reel import app
+from reel.views import login_welcome
 
 
 class LoginPageTestClass(unittest.TestCase):
