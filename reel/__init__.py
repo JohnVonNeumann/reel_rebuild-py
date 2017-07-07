@@ -1,10 +1,7 @@
 from flask import Flask
-from flask_sqlalchemy import SQLAlchemy
-import reel.views
-
- 
 app = Flask(__name__) 
-db = SQLAlchemy(app)
+
+import reel.views
 app.config.from_pyfile('/home/xibalba/code/reel/config.py') 
  
 
