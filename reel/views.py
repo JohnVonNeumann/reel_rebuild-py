@@ -4,7 +4,7 @@ from flask import render_template
 
 @app.route('/')
 def home_welcome():
-    return render_template('index.html') 
+    return 'Welcome to Reel!'
 
 @app.route('/signup')
 def signup_welcome():
