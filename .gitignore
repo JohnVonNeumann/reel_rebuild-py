@@ -1,3 +1,4 @@
 .env
 venv-36-reel
-__pycache__
+__pycache__/
+.ropeproject/
