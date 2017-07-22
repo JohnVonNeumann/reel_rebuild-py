@@ -12,7 +12,7 @@ class HomePageTestClass(unittest.TestCase):
     def test_homepage_response(self):
         response = self.app.get('/')
         self.assertEqual(response.status_code, 200)
-        self.assertIn(b"Welcome to Reel!", response.data)
+        self.assertIn(b"Home - Reel", response.data)
 
     def tearDown(self):
         pass

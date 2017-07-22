@@ -12,7 +12,7 @@ class LoginPageTestClass(unittest.TestCase):
     def test_loginpage_response(self):
         response = self.app.get('/login')
         self.assertEqual(response.status_code, 200)
-        self.assertIn(b"Welcome to the login page!", response.data)
+        self.assertIn(b"Login - Reel", response.data)
 
     def tearDown(self):
         pass
