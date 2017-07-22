@@ -4,7 +4,7 @@ from flask import render_template
 
 @app.route('/')
 def home_welcome():
-    return render_template("base.html")
+    return render_template("homepage.html")
 
 @app.route('/signup')
 def signup_welcome():

@@ -2,3 +2,5 @@
 venv-36-reel
 __pycache__/
 .ropeproject/
+.coverage
+reel.egg-info/
