@@ -8,17 +8,17 @@ def home_welcome():
 
 @app.route('/signup')
 def signup_welcome():
-    return 'Welcome to the signup page!'
+    return render_template("signuppage.html")
 
 @app.route('/login')
 def login_welcome():
-    return 'Welcome to the login page!'
+    return render_template("loginpage.html")
 
 @app.route('/become_a_guide')
 def guide_welcome():
-    return 'Welcome to the guide page!'
+    return render_template("guidepage.html")
 
 @app.route('/help')
 def help_welcome():
-    return 'Welcome to the help page!'
+    return render_template("helppage.html")
 
