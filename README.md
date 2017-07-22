@@ -2,6 +2,7 @@
 ## Marketplace for fishermen, find guides for local spots.
 
 [![Build Status](https://travis-ci.org/JohnVonNeumann/reel_rebuild-py.svg?branch=master)](https://travis-ci.org/JohnVonNeumann/reel_rebuild-py)
+[![Coverage Status](https://coveralls.io/repos/github/JohnVonNeumann/reel_rebuild-py/badge.svg?branch=master)](https://coveralls.io/github/JohnVonNeumann/reel_rebuild-py?branch=master)
 
 This project was originally built in Rails whilst at Coder Academy Melbourne going through my bootcamp. I was never proud of the code I wrote, so I'm taking the time to rebuild it in Python, a language I am now working with in a professional manner. I hope to fix up not only the app and the idea, but also the holes in my knowledge.
 
