@@ -12,7 +12,7 @@ class SignupPageTestClass(unittest.TestCase):
     def test_signuppage_response(self):
         response = self.app.get('/signup')
         self.assertEqual(response.status_code, 200)
-        self.assertIn(b"Welcome to the signup page!", response.data)
+        self.assertIn(b"Signup - Reel", response.data)
 
     def tearDown(self):
         pass

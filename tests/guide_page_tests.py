@@ -12,7 +12,7 @@ class GuidePageTestClass(unittest.TestCase):
     def test_become_a_guide_status_code(self):
         response = self.app.get('/become_a_guide')
         self.assertEqual(response.status_code, 200)
-        self.assertIn(b"Welcome to the guide page!", response.data)
+        self.assertIn(b"Become a Guide - Reel", response.data)
 
     def tearDown(self):
         pass

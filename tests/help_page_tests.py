@@ -12,7 +12,7 @@ class HelpPageTestClass(unittest.TestCase):
     def test_help_status_code(self):
         response = self.app.get('/help')
         self.assertEqual(response.status_code, 200)
-        self.assertIn(b"Welcome to the help page!", response.data)
+        self.assertIn(b"Help - Reel", response.data)
 
     def tearDown(self):
         pass
