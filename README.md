@@ -22,4 +22,6 @@ Install requirements:
 Run tests:
 > nosetests
 
-
+View code coverage:
+> coverage run --source=reel setup.py test
+> coverage report -m

@@ -4,3 +4,6 @@ python:
 install: "pip install -r requirements.txt"
 script: 
   - nosetests
+  - coverage run --source=reel setup.py test
+after_success:
+  - coveralls
