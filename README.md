@@ -32,5 +32,7 @@ View code coverage:
 *SQLAlchemy ORM v Core 
 > Decided to get into Core as it is more appropriate for what I'm doing at work and I'd actually rather be closer to the SQL than further away from it, ORMapping sounds great but after doing some research it does appear great and all but there is a large camp of people who believe that fundamentally that is a mismatch between the aims of DB's and OOP, so I've decided to learn core instead. 
 
+> In light of the above point, I have decided to run with Flask-SQLAlchemy for this application, I don't know nearly enough about SQL programming to not do an absolute hatchet job of using something more advanced, the end goal is to use something closer to the SQL, but ultimately, it's better to develop something worthwhile than a half baked botch job.
+
 *Psycopg2
 > I'm not going to use it as it appears that it is largely optional and much of the SQLAlchemy Core documentation is written without it's use involved. From what I can gather it offers pooling functionality, (I don't understand the technicals but I think I get it on a very high level) which Core already offers, so this project I'll run without it and see how that impacts my opinion for follow up projects.
